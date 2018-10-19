@@ -36,10 +36,10 @@ def numOfWords(file):
 
 def randWord():
     """
-    Sorts a Portuguese word in the words.txt file.
+    Select randomly a Portuguese word in the words.txt file.
     :return: A Portuguese word.
     """
-    # Open the file to count the number of words and raffle one of them
+    # Open the file to count the number of words and select one of them
     with open("words.txt", encoding="utf-8") as file:
         position = randint(0, numOfWords(file))
 
@@ -81,7 +81,7 @@ if __name__ == "__main__":
                 if letter == rand_word[i]:  # If the letter is in the rand_word, then replace the - for the letter
                     discovered_words[i] = letter
 
-                print(f'{discovered_words[i]} ', end="")  # Show the sorted word replaced with the letter
+                print(f'{discovered_words[i]} ', end="")  # Show the selected word replaced with the letter
 
             print('\n\nLetras chutadas: ', end="")
             for letters in attempts_list:  # Show the attempted letters
