@@ -3,7 +3,7 @@
 
 <h3>Como jogar</h3>
 <p>
-    O jogo consiste em <strong>adivinhar</strong> (<u>usando do teclado</u>) <strong>uma palavra sorteada</strong> dentre as 32080 palavras presentes no 
+    O jogo consiste em <strong>adivinhar</strong> (<u>usando o teclado</u>) <strong>uma palavra sorteada</strong> dentre as 32080 palavras presentes no 
     arquivo <strong>words.txt</strong>.     
 </p>
 
@@ -12,14 +12,14 @@
 <p>
     <ol>
         <li>
-            O jogador tem <strong>3 vezes o número de letras da palavra sorteada em  tentativas</strong>.<br>
+            O jogador tem <strong>3 vezes o número de letras da palavra sorteada em tentativas</strong>.<br>
         </li>
         <li>
             Caso o jogador <strong>acerte a palavra antes do número máximo de tentativas</strong> o jogador <strong>
             vence a partida</strong>.
          </li>
         <li>
-            Caso o jogador atinja o limite máximo de tentativas, a palavra sorteada é mostrada e o jogador <strong>perde
+            Caso o jogador <strong>atinja o limite máximo de tentativas, a palavra sorteada é mostrada</strong> e o jogador <strong>perde
             a partida</strong>.<br>
         </li>
         <li>
